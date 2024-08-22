@@ -26,7 +26,7 @@ function Projects() {
               imgPath={hotel}
               isBlog={false}
               title="HOTEL IT"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="I developed a personal hotel booking application using Flutter that allows users to seamlessly explore and book a hotel room of their choice. The app offers an intuitive user interface, enabling users to browse through a variety of hotel options, view detailed room information, and make reservations with ease. Leveraging the power of cross-platform development, this app delivers a smooth experience across both iOS and Android, ensuring consistent performance and user satisfaction."
               ghLink="https://github.com/OstrichFarmer/hotel_it"
               // demoLink="https://chatify-49.web.app/"
             />
@@ -37,7 +37,7 @@ function Projects() {
               imgPath={whistleblower}
               isBlog={false}
               title="KPMG WHISTLEBLOWER"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="I developed a Whistleblower web application tailored for KPMG clients using React. This platform enables users to securely and anonymously report unethical or unlawful activities within organizations. The application focuses on user privacy, intuitive navigation, and a streamlined reporting process. Built with modern web technologies, the app ensures a responsive, fast, and secure user experience, empowering individuals to submit reports confidentially and with confidence."
               //  ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://apps.ng.kpmg.com/whistleblower/#"
             />
@@ -70,7 +70,7 @@ function Projects() {
               imgPath={mobile}
               isBlog={false}
               title="CAPATUNO"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description="I developed CAPATUNO, a dating app built with Flutter, designed to connect people seeking meaningful relationships. CAPATUNO provides users with an engaging and user-friendly platform to discover potential matches through personalized profiles and intuitive swiping features. The app delivers a smooth, cross-platform experience for both Android and iOS users, ensuring high performance and seamless interactions as users explore and connect with new people."
               ghLink="https://github.com/OstrichFarmer/ilove"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
