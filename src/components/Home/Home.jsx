@@ -31,7 +31,7 @@ function Home() {
                 src={heroAsset}
                 alt="modern hero"
                 className="img-fluid hero-img"
-                style={{ maxHeight: "600px", filter: "drop-shadow(0 0 20px var(--accent-glow))" }}
+                style={{ maxHeight: "600px" }}
               />
             </Col>
           </Row>

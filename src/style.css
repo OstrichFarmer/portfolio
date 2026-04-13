@@ -834,6 +834,12 @@ html, body {
 
 .hero-img {
   animation: float 6s ease-in-out infinite alternate;
+  mix-blend-mode: screen;
+  /* More aggressive fade-out to ensure the rectangle is 100% gone */
+  mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 75%);
+  -webkit-mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 75%);
+  filter: contrast(1.1) brightness(1.1);
+  opacity: 0.9;
 }
 
 @keyframes float {
