@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.png";
-// import editor from "../../Assets/Projects/codeEditor.png";
 import hotel from "../../Assets/Projects/hotel.png";
 import mobile from "../../Assets/Projects/mobile.png";
 import whistleblower from "../../Assets/Projects/whistleblower.png";
+import galisuite from "../../Assets/Projects/galisuite.png";
+import naijahousereview from "../../Assets/Projects/naijahousereview.png";
+import fundpilot from "../../Assets/Projects/fundpilot1.png";
 
 function Projects() {
   return (
@@ -51,6 +51,39 @@ function Projects() {
               description="A modern dating application built with Flutter, focusing on meaningful connections and smooth cross-platform interactions."
               ghLink="https://github.com/OstrichFarmer/ilove"
               tags={["Flutter", "Dart", "UI/UX"]}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={galisuite}
+              isBlog={false}
+              title="GaliSuite"
+              description="A luxury hotel and stay booking platform offering exclusive accommodations and seamless reservation experiences."
+              demoLink="https://www.galisuite.com/"
+              tags={["React", "Tailwind", "Paystack"]}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={naijahousereview}
+              isBlog={false}
+              title="Naija House Review"
+              description="A house review platform for Nigeria, enabling tenants to share evidence-based experiences and improve housing quality."
+              demoLink="https://www.naijahousereview.com/"
+              tags={["React", "Firebase", "Express"]}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fundpilot}
+              isBlog={false}
+              title="Fundpilot"
+              description="Comprehensive investment management app for tracking stocks, crypto, and real estate with AI-powered insights."
+              demoLink="https://play.google.com/store/apps/details?id=com.fundpilot.fundpilot"
+              tags={["Flutter", "Firebase", "Python"]}
             />
           </Col>
         </Row>
