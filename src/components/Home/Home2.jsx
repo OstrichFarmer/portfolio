@@ -13,67 +13,41 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
+        <Row className="align-items-center">
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            <h1 className="about-heading">
+              WHO <span className="purple">AM I.</span>
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in stacks like
-              <i>
-                <b className="purple">
-                  {" "}
-                  Flutter(Dart), Javascript and Python.{" "}
-                </b>
-              </i>
+              A software developer with a focus on building seamless digital experiences.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">
-                  Web & Mobile Technologies and Products{" "}
-                </b>{" "}
-                and also in areas related to{" "}
-                <b className="purple">Artificial Intelligence.</b>
-              </i>
+              I specialize in stacks like 
+              <span className="purple"> Flutter, Javascript, and Python</span>, 
+              balancing high-performance mobile apps with modern web technologies.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Flutter</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
-              </i>
+              My interests lie in the intersection of 
+              <span className="purple"> Artificial Intelligence </span> 
+              and product-driven software engineering.
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+          <Col md={4} className="myAvtar text-center">
+            <Tilt transitionSpeed={1000} scale={1.05}>
+              <img src={myImg} className="img-fluid hero-img-intro" alt="avatar" style={{ filter: "drop-shadow(0 0 15px var(--accent-glow))" }} />
             </Tilt>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+            <h1 className="social-heading">CONNECT WITH ME</h1>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
                   href="https://github.com/OstrichFarmer"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -83,7 +57,7 @@ function Home2() {
                   href="https://twitter.com/Ostrich_Farmer"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="home-social-icons"
                 >
                   <AiOutlineTwitter />
                 </a>
@@ -93,7 +67,7 @@ function Home2() {
                   href="https://www.linkedin.com/in/stephen-joel56/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -103,7 +77,7 @@ function Home2() {
                   href="https://www.instagram.com/juelputa56/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour home-social-icons"
+                  className="home-social-icons"
                 >
                   <AiFillInstagram />
                 </a>
