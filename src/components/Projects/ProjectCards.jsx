@@ -21,10 +21,12 @@ function ProjectCards(props) {
           ))}
         </div>
         <div className="project-card-footer">
-          <Button variant="primary" href={props.ghLink} target="_blank" className="project-btn">
-            <BsGithub /> &nbsp;
-            {props.isBlog ? "Blog" : "GitHub"}
-          </Button>
+          {props.ghLink && (
+            <Button variant="primary" href={props.ghLink} target="_blank" className="project-btn">
+              <BsGithub /> &nbsp;
+              {props.isBlog ? "Blog" : "GitHub"}
+            </Button>
+          )}
 
           {!props.isBlog && props.demoLink && (
             <Button
