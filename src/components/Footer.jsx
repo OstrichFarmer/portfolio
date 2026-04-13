@@ -12,19 +12,19 @@ function Footer() {
   let year = date.getFullYear();
   return (
     <Container fluid className="footer">
-      <Row>
+      <Row className="align-items-center">
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Joel Ugwa</h3>
+          <h3 className="footer-text">Built by Joel Ugwa</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} JU</h3>
+          <h3 className="footer-text">© {year} JU.</h3>
         </Col>
         <Col md="4" className="footer-body">
-          <ul className="footer-icons">
+          <ul className="footer-icons d-flex justify-content-center">
             <li className="social-icons">
               <a
                 href="https://github.com/OstrichFarmer"
-                style={{ color: "white" }}
+                className="footer-social-link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -34,7 +34,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://twitter.com/Ostrich_Farmer"
-                style={{ color: "white" }}
+                className="footer-social-link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -44,7 +44,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/stephen-joel56/"
-                style={{ color: "white" }}
+                className="footer-social-link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -54,7 +54,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/juelputa56/"
-                style={{ color: "white" }}
+                className="footer-social-link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
