@@ -61,7 +61,7 @@ function Projects() {
               title="GaliSuite"
               description="A luxury hotel and stay booking platform offering exclusive accommodations and seamless reservation experiences."
               demoLink="https://www.galisuite.com/"
-              tags={["React", "Tailwind", "Paystack"]}
+              tags={["React", "Tailwind", "Golang", "Paystack"]}
             />
           </Col>
 
@@ -72,7 +72,7 @@ function Projects() {
               title="Naija House Review"
               description="A house review platform for Nigeria, enabling tenants to share evidence-based experiences and improve housing quality."
               demoLink="https://www.naijahousereview.com/"
-              tags={["React", "Firebase", "Express"]}
+              tags={["React", "Firebase", "Golang"]}
             />
           </Col>
 
@@ -83,7 +83,7 @@ function Projects() {
               title="Fundpilot"
               description="Comprehensive investment management app for tracking stocks, crypto, and real estate with AI-powered insights."
               demoLink="https://play.google.com/store/apps/details?id=com.fundpilot.fundpilot"
-              tags={["Flutter", "Firebase", "Python"]}
+              tags={["Flutter", "Golang", "Firebase", "Gemini"]}
             />
           </Col>
         </Row>
