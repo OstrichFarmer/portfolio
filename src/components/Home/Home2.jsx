@@ -19,22 +19,31 @@ function Home2() {
               WHO <span className="purple">AM I.</span>
             </h1>
             <p className="home-about-body">
-              A software developer with a focus on building seamless digital experiences.
+              A software developer with a focus on building seamless digital
+              experiences.
+              <br />
+              <br />I specialize in stacks like
+              <span className="purple">
+                {" "}
+                Flutter, Javascript,Golang and Python
+              </span>
+              , balancing high-performance mobile apps with modern web
+              technologies.
               <br />
               <br />
-              I specialize in stacks like 
-              <span className="purple"> Flutter, Javascript, and Python</span>, 
-              balancing high-performance mobile apps with modern web technologies.
-              <br />
-              <br />
-              My interests lie in the intersection of 
-              <span className="purple"> Artificial Intelligence </span> 
+              My interests lie in the intersection of
+              <span className="purple"> Artificial Intelligence </span>
               and product-driven software engineering.
             </p>
           </Col>
           <Col md={4} className="myAvtar text-center">
             <Tilt transitionSpeed={1000} scale={1.05}>
-              <img src={myImg} className="img-fluid hero-img-intro" alt="avatar" style={{ filter: "drop-shadow(0 0 15px var(--accent-glow))" }} />
+              <img
+                src={myImg}
+                className="img-fluid hero-img-intro"
+                alt="avatar"
+                style={{ filter: "drop-shadow(0 0 15px var(--accent-glow))" }}
+              />
             </Tilt>
           </Col>
         </Row>
