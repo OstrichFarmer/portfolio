@@ -317,7 +317,9 @@ html, body {
 
 .home-section {
   position: relative;
-  min-height: 100vh;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
   background-color: var(--bg-midnight);
   overflow: hidden;
 }
@@ -342,7 +344,8 @@ html, body {
 }
 
 .home-content {
-  padding: 10rem 0 5rem !important;
+  width: 100%;
+  padding: 6rem 0 !important;
 }
 
 .heading {
