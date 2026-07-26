@@ -8,6 +8,8 @@ import whistleblower from "../../Assets/Projects/whistleblower.png";
 import galisuite from "../../Assets/Projects/galisuite.png";
 import naijahousereview from "../../Assets/Projects/naijahousereview.png";
 import fundpilot from "../../Assets/Projects/fundpilot1.png";
+import pos from "../../Assets/Projects/pos.png";
+import hms from "../../Assets/Projects/hms.png";
 
 function Projects() {
   return (
@@ -84,6 +86,28 @@ function Projects() {
               description="Comprehensive investment management app for tracking stocks, crypto, and real estate with AI-powered insights."
               demoLink="https://play.google.com/store/apps/details?id=com.fundpilot.fundpilot"
               tags={["Flutter", "Golang", "Firebase", "Gemini"]}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pos}
+              isBlog={false}
+              title="Klarrk POS"
+              description="Cloud point-of-sale for retail shops and supermarkets, with multi-branch stock sync, offline-first sales queuing, and end-of-shift cash audits."
+              demoLink="https://admin.klarrk.com"
+              tags={["React", "TypeScript", "Go", "PostgreSQL"]}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hms}
+              isBlog={false}
+              title="Klarrk HMS"
+              description="Hotel management system that hardware-locks the room keycard encoder, eliminating off-book check-ins by requiring a paid booking before any keycard can be cut."
+              demoLink="https://hms.klarrk.com"
+              tags={["React", "TypeScript", "Go", "Electron"]}
             />
           </Col>
         </Row>
