@@ -1,5 +1,3 @@
-This portfolio was inspired by Soumyajit and you can find the original at [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
-
 1. Installation: `npm install`
 
 2. In the project directory, you can run: `npm start`
